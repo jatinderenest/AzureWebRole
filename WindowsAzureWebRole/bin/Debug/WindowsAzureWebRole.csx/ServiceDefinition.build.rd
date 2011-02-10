@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzureWebRole" generation="1" functional="0" release="0" Id="0de3133d-14f4-4b12-bffa-05dc8126a222" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzureWebRole" generation="1" functional="0" release="0" Id="c7742356-1f08-4603-bb52-cf94012d49cc" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="WindowsAzureWebRoleGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -99,9 +99,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="85893065-9a60-4b9e-bf5f-16a3ba8425c8" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzureWebRoleContract@ServiceDefinition.build">
+    <implementation Id="30730d84-5cd5-4c5d-b35d-201829203d77" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzureWebRoleContract@ServiceDefinition.build">
       <interfacereferences>
-        <interfaceReference Id="009735e9-9b68-44a8-ba90-324afdcb593b" ref="Microsoft.RedDog.Contract\Interface\WebRole:Endpoint1@ServiceDefinition.build">
+        <interfaceReference Id="ff998944-d5b9-4913-a08e-7b552585b2bd" ref="Microsoft.RedDog.Contract\Interface\WebRole:Endpoint1@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/WindowsAzureWebRole/WindowsAzureWebRoleGroup/WebRole:Endpoint1" />
           </inPort>
